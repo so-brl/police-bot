@@ -7,7 +7,7 @@ const axios = require('axios');
 client.on('ready', () => {
     console.log(`Connecté au serveur ${client.user.tag}!`);
 });
-let policeID = '<@&774717295657484328>';
+let policeID = '<@&775082478398078977>';
 
 client.on('message', msg => {
 let message = msg.content;
